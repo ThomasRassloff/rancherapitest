@@ -1,0 +1,8 @@
+---
+www:
+  hostname: www
+  labels:
+    io.rancher.sidekicks: www-docroot
+  image: nginx:1.9.1
+  volumes:
+    - ./default_docroot:/usr/share/nginx/html
