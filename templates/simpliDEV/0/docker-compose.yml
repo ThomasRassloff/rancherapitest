@@ -1,8 +1,9 @@
----
-www:
-  hostname: www
-  labels:
-    io.rancher.sidekicks: www-docroot
-  image: nginx:1.9.1
-  volumes:
-    - ./default_docroot:/usr/share/nginx/html
+version: '2'
+services:
+  web:
+    image: nginx
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: test    
+
