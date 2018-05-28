@@ -2,7 +2,7 @@
 name: simpliDEV
 description: >
   A simpliDEV which does almost nothing of any practical value.
-version: 0.0.1-rancher0815
+version: 0.0.1
 category: Toy Apps
 maintainer: Thomas Rassloff <thomas.rassloff@interim-group.de>
 license: Apache2
